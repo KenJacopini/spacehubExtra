@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package com.project.spacehub.validate;
+
+/**
+ * @author lordsugar
+ *
+ */
+public final class UserAlreadyExistException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3993352756671721511L;
+
+	
+	public UserAlreadyExistException() {
+		
+		super();
+	}
+
+
+	public UserAlreadyExistException(String message, Throwable cause) {
+		
+		super(message, cause);
+		
+	}
+
+
+	public UserAlreadyExistException(String message) {
+		
+		super(message);
+
+	}
+
+
+	public UserAlreadyExistException(Throwable cause) {
+		
+		super(cause);
+		
+	}
+	
+	
+	
+	
+	
+}
